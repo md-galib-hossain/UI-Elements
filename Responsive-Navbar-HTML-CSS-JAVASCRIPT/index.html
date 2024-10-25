@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="app.js" defer></script>
   </head>
   <body>
     <nav id="sidebar">
@@ -46,7 +47,7 @@
           </a>
         </li>
         <li>
-          <button class="dropdown-btn">
+          <button class="dropdown-btn" onclick=toggleSubMenu(this)>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
@@ -78,7 +79,7 @@
           </ul>
         </li>
         <li>
-          <button class="dropdown-btn">
+          <button onclick=toggleSubMenu(this) class="dropdown-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24px"
